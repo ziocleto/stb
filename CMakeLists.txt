@@ -1,7 +1,7 @@
     cmake_minimum_required (VERSION 2.6)
     project(stb)
     
-    add_library(${PROJECT_NAME} STATIC stb_vobis.c)
+    add_library(${PROJECT_NAME} STATIC stb_vorbis.c)
 
     install ( TARGETS ${PROJECT_NAME} DESTINATION lib )
     file(GLOB HEADER_FILESS "*.h" "*.hpp")
